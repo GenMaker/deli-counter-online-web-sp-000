@@ -22,6 +22,8 @@ def now_serving(line)
   if line.length == 0
     puts "should say that the line is empty"
   elsif
-    
+    line.each do |name|
+    puts "Currently serving #{name}."
+    line.pop 
   end
 end
