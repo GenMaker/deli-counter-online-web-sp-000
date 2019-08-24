@@ -6,7 +6,7 @@ def line (array)
   elsif array.length > 0
      line ="The line is currently: "
      array.each_with_index do |person, index|
-       line << "#{index}. #{person}
+       line << "#{index}. #{person}""
     end
   end
 end
