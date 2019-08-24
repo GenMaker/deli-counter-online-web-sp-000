@@ -4,8 +4,8 @@ def line (array)
   if array.length == 0
   puts "The line is currently empty."
   elsif array.length >=0
-    
-    puts "The current line is #{number} person.
+    number = 
+    puts "The line is currently #{number} #{ person}.
 
   end
 end
