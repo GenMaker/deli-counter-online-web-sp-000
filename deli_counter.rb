@@ -22,7 +22,7 @@ def now_serving(line)
   if line.length == 0
     puts "There is nobody waiting to be served!"
   elsif
-    line.each do |name|
+    line.first do |name|
     puts "Currently serving #{name}."
     end
   end
