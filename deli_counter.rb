@@ -24,6 +24,6 @@ def now_serving(line)
   elsif
     line.each do |name|
     puts "Currently serving #{name}."
-    line.pop 
+    line.shift
   end
 end
