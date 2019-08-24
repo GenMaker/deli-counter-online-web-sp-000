@@ -20,5 +20,8 @@ end
 
 def now_serving(line)
   if line.length == 0
-    puts 
+    puts "should say that the line is empty"
+  elsif
+    
+  end
 end
