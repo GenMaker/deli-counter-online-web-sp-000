@@ -7,10 +7,8 @@ def line (array)
   #  puts "The line is currently
     #(array.each_with_index do |person, index|)
      #{index +1}. #{person}"
-  array.each_with_index do |person, index|
-  puts "The line is currently
-   #{index +1}. #{person}"
-
+     line ="The line is currently:"
+     line << array.each_with_index do |person, index|
     end
   end
 end
