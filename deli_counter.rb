@@ -20,7 +20,7 @@ end
 
 def now_serving(line)
   if line.length == 0
-    puts "should say that the line is empty"
+    puts "There is nobody waiting to be served!"
   elsif
     line.each do |name|
     puts "Currently serving #{name}."
