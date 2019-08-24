@@ -12,8 +12,11 @@ def line (array)
   end
 end
 
-def take_a_number(array,name)
-  line << " #{index} #{person}""
+def take_a_number(line,name)
+  line << name
+  index= line.length
+  puts "Welcome, #{name}. You are number #{index} in line."
+
 end
 
 def now_serving(array)
